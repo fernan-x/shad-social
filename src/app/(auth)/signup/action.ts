@@ -1,4 +1,4 @@
-'user server';
+'use server';
 
 import { signUpSchema, SignUpValues } from "@/lib/validation";
 import { hash } from "@node-rs/argon2";
